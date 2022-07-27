@@ -1,0 +1,183 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Seth Lewis",
+            "email": "slandonlewis@gmail.com"
+        },
+        {
+            "id": 2,
+            "name": "Jordan Williams",
+            "email": "jwilliams@gmail.com"
+        },
+        {
+            "id": 3,
+            "name": "Travis Williams",
+            "email": "travwwilliams@gmail.com"
+        },
+        {
+            "id": 4,
+            "name": "Dustin Dixon",
+            "email": "ddixon@gmail.com"
+        }
+    ],
+    "sessions": [
+        {
+            "id": 1,
+            "name": "Upper Body A",
+            "userId": 1
+        },
+        {
+            "id": 2,
+            "name": "Back and Biceps",
+            "userId": 3
+        }
+    ],
+    "userSessions": [
+        {
+            "id": 1,
+            "sessionId": 1,
+            "userId": 1
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "sessionId": 1,
+            "name": "Bench Press",
+            "load": 225,
+            "sets": 4,
+            "reps": 5
+        },
+        {
+            "id": 2,
+            "sessionId": 1,
+            "name": "Incline DB Press",
+            "load": 70,
+            "sets": 3,
+            "reps": 8
+        },
+        {
+            "id": 3,
+            "sessionId": 2,
+            "name": "Pull Ups",
+            "load": 90,
+            "sets": 4,
+            "reps": 6
+        },
+        {
+            "id": 4,
+            "sessionId": 2,
+            "name": "Cable Rows",
+            "load": 160,
+            "sets": 3,
+            "reps": 10
+        },
+        {
+            "id": 5,
+            "sessionId": 2,
+            "name": "DB Curls",
+            "load": 50,
+            "sets": 5,
+            "reps": 10
+        } 
+    ],
+    "bars": [
+        {
+            "id": 1,
+            "type": "Olympic Bar",
+            "barWeightLBS": 44,
+            "barWeightKG": 20
+        },
+        {
+            "id": 2,
+            "type": "Hex/Trap Bar",
+            "barWeightLBS": 55,
+            "barWeightKG": 25
+        },
+        {
+            "id": 3,
+            "type": "Swiss Bar",
+            "barWeightLBS": 38,
+            "barWeightKG": 17.27
+        },
+        {
+            "id": 4,
+            "type": "Safety Squat Bar",
+            "barWeightLBS": 61,
+            "barWeightKG": 27.72
+        }
+    ],
+    "plates": [
+        {
+            "id": 1,
+            "type": "LBS",
+            "weight": 45
+        },
+        {
+            "id": 2,
+            "type": "LBS",
+            "weight": 35
+        },
+        {
+            "id": 3,
+            "type": "LBS",
+            "weight": 25
+        },
+        {
+            "id": 4,
+            "type": "LBS",
+            "weight": 10
+        },
+        {
+            "id": 5,
+            "type": "LBS",
+            "weight": 5
+        },
+        {
+            "id": 6,
+            "type": "LBS",
+            "weight": 2.5
+        },
+        {
+            "id": 7,
+            "type": "KGS",
+            "weight": 25
+        },
+        {
+            "id": 8,
+            "type": "KGS",
+            "weight": 20
+        },
+        {
+            "id": 9,
+            "type": "KGS",
+            "weight": 15
+        },
+        {
+            "id": 10,
+            "type": "KGS",
+            "weight": 10
+        },
+        {
+            "id": 11,
+            "type": "KGS",
+            "weight": 5
+        },
+        {
+            "id": 12,
+            "type": "KGS",
+            "weight": 2.5
+        },
+        {
+            "id": 13,
+            "type": "KGS",
+            "weight": 1.25
+        },
+        {
+            "id": 14,
+            "type": "KGS",
+            "weight": 0.75
+        }
+    ]
+}
